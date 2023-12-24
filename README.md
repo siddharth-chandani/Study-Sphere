@@ -16,8 +16,6 @@
       - [Notifications menu](#notifications-menu)
   - [Files and directories](#files-and-directories)
   - [How to run the application](#how-to-run-the-application)
-    - [API key set up](#api-key-set-up)
-    - [Running the application](#running-the-application)
   - [Important note](#important-note)
   - [Features I would like to improve/add](#features-i-would-like-to-improveadd)
 
@@ -180,9 +178,6 @@ Summary of files created by me:
 [Back to Top](#cs50-final-project---Study-Sphere)
 
 ## How to run the application
-
-
-### Running the application
 
 1. Copy the repo to your system.
 2. Verify you have Python and Django installed on your system. If not you will need to install them.
