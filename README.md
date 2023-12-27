@@ -1,5 +1,4 @@
-# CS50 Final Project - Study Sphere
-- [CS50 Final Project - Study Sphere](#cs50-final-project---Study-Sphere)
+# Study Sphere
   - [Overview](#overview)
   - [Distinctiveness and Complexity](#distinctiveness-and-complexity)
   - [Models](#models)
