@@ -24,30 +24,6 @@ I have built an online platform for teachers and students, where teachers can ad
 
 My web application was built using Django, JavaScript and Bootstrap.
 
-## Distinctiveness and Complexity
-
-According the the specification, my project must adhere to the following guidelines: 
-
-> Your web application must be sufficiently distinct from the other projects in this course (and, in addition, may not be based on the old CS50W Pizza project), and more complex than those.
-
-I believe that my project meets this requirement for the following reasons: 
-
-1. My project is based on an original idea, that solves a real-life personal problem which has no similarity to any of the projects built as part of the CS50W course. 
-2. The website is built with different user types: admin, student and teacher.
-3. I built a simple [notification](#notifications) system, which notifies students of new videos whenever a teacher uploads it for his students (i.e. it will only notify to those students which has access to that video). The notifications section is completely responsive and updates dynamically using JavaScript.
-4. On the [Add Video](#add-video-add)  page I challenged myself to build functionality that allows users to add a new field to the `Topic` model using JavaScript.
-
-> Your web application must utilize Django (including at least one model) on the back-end and JavaScript on the front-end.
-
-My application was built using Django, including 8 models on the back-end and uses 8 different JavaScript scripts to make dynamic updates on the front-end. All generated information is saved in a database (SQLite by default).
-
-> Your web application must be mobile-responsive
-
-Every page and feature of the web application is mobile-responsive and this is achieved using Bootstrap and custom CSS. 
-
-
-[Back to Top](#cs50-final-project---Study-Sphere)
-
 
 ## Models
 
