@@ -5,7 +5,7 @@ import { googleAuthenticate } from '../actions/auth';
 import queryString from 'query-string';
 import { toast } from 'react-toastify';
 
-const Google = ({ googleAuthenticate }) => {
+const Google = ({ googleAuthenticate,setEmail }) => {
     let location = useLocation();
 
     const [islogin, setIslogin] = useState(false)
@@ -22,7 +22,8 @@ const Google = ({ googleAuthenticate }) => {
 
             let stat = googleAuthenticate(state, code);
             stat.then(function(result) {
-                if(result === 'Logged IN'){
+                if(result[0] === 'Logged IN'){
+                    setEmail(result[1].user);
                     toast.success(result);
                     setIslogin(true)
                 }

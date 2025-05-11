@@ -72,7 +72,7 @@ export const googleAuthenticate = (state, code) => async dispatch => {
             });
 
             dispatch(load_user());
-            return "Logged IN";
+            return ["Logged IN",res.data];
 
         } catch (err) {
             dispatch({

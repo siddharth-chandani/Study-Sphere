@@ -45,7 +45,7 @@ const App = () => {
             <Route path="/addvideo" element={<Protected Comp={AddVideo} saved={null} email={email}/>} />
             <Route path="/login" element={<Login setEmail={setEmail} />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/google" element={<Google />} />
+            <Route path="/google" element={<Google setEmail={setEmail} />} />
             <Route path="/reset-password" element={<ResetPassword />} />
             <Route
               path="/password/reset/confirm/:uid/:token"
